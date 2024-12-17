@@ -18,12 +18,12 @@ const Header: React.FC = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-4 lg:space-x-6 ml-auto mt-6">
-          <a href="/#home" className="hover:text-purple hover:underline transition duration-300 mt-2">Home</a>
-          <a href="#about" className="hover:text-purple hover:underline transition duration-300 mt-2">About</a>
-          <a href="#skills" className="hover:text-purple hover:underline transition duration-300 mt-2">Skills</a>
-          <a href="#projects" className="hover:text-purple hover:underline transition duration-300 mt-2">Projects</a>
-          <a href="#contact" className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300">Let&apos;s Connect</a>
+         <nav className="hidden md:flex space-x-4 lg:space-x-6 ml-auto mt-6">
+          <Link href="/#home" className="hover:text-purple hover:underline transition duration-300 mt-2">Home</Link>
+          <Link href="#about" className="hover:text-purple hover:underline transition duration-300 mt-2">About</Link>
+          <Link href="#skills" className="hover:text-purple hover:underline transition duration-300 mt-2">Skills</Link>
+          <Link href="#projects" className="hover:text-purple hover:underline transition duration-300 mt-2">Projects</Link>
+          <Link href="#contact" className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300">Let&apos;s Connect</Link>
         </nav>
 
         {/* Mobile Menu Icon */}
