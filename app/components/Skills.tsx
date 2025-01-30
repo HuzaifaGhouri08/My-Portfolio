@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 const skills = [
   { name: "HTML", percentage: 94 },
   { name: "CSS", percentage: 90 },
-  { name: "JavaScript", percentage: 80 },
-  { name: "TypeScript", percentage: 75 },
-  { name: "Next.js", percentage: 60 },
+  { name: "JavaScript / TypeScript", percentage: 85 },
+  { name: "Next.js", percentage: 75 },
   { name: "Tailwind.css", percentage: 70 },
+  { name: "Python", percentage: 30 },
 ];
 
 const Skills: React.FC = () => {
