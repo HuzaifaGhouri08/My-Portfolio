@@ -10,6 +10,12 @@ type Project = {
 };
 
 const projects: Project[] = [
+   {
+    title: "Nike Shoes Store",
+    description: "Your ultimate destination for the latest and greatest Nike shoes. Explore a wide selection of styles for every sport and occasion.",
+    link: "https://stylesyncs.vercel.app/",
+    image: "/Store.jpg"
+  },
   {
     title: "Weather App",
     description: "Get accurate and up-to-the-minute forecasts for your current location and any other spot on the globe.",
