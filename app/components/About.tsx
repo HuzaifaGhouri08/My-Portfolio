@@ -86,7 +86,7 @@ export default function About() {
           {/* Button Section */}
           <div className="flex justify-center md:justify-start gap-4 mt-4 font-grover">
             <motion.a
-              href="https://hackathon-milestone-1-2-topaz.vercel.app/"
+              href="https://business-pitch-deck.vercel.app/"
               className="bg-lightPurple border-2 border-purple text-white py-2 px-4 rounded-md hover:bg-purple hover:border-transparent cursor-pointer text-sm md:text-base"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
